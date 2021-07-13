@@ -40,7 +40,7 @@ program
 program
     .command('add')
     .alias('a')
-    .description('🎨 Add a new customer')
+    .description('➕ Add a new customer')
     .action(()=>{
         prompt(questions).then(answers=>{
             addCustomer(answers)
@@ -58,7 +58,7 @@ program
 program
     .command('update')
     .alias('u')
-    .description('✏️ Update an existing customer')
+    .description('♻️  Update an existing customer')
     .action((_id)=>{
         prompt(questions).then(answers=>{
             updateCustomer(_id, answers)
@@ -76,7 +76,7 @@ program
 program
     .command('list')
     .alias('l')
-    .description('🔒️ List out existing customers')
+    .description('🚀 List out existing customers')
     .action(() => {
         listCustomers();
     });

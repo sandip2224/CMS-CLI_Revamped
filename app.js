@@ -5,7 +5,7 @@ const customer = require('./models/customer');
 mongoose.Promise=global.Promise;
 
 // Connect to database
-const db=mongoose.connect('mongodb://localhost:27017/customercli', {
+const db=mongoose.connect('mongodb://localhost:27017/cms-cli', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     });
@@ -16,7 +16,7 @@ const customerModel=require('./models/customer');
 //Add Customer
 const addCustomer=(customer)=>{
     customerModel.create(customer).then(customer=>{
-        console.info('📝 New Customer added');
+        console.info('➕ New Customer added');
         mongoose.connection.close();
     })
 }
@@ -48,7 +48,7 @@ const updateCustomer=(_id, customer)=>{
 //Remove customer
 const removeCustomer=(_id)=>{
     customerModel.deleteOne({_id}).then(customer=>{
-        console.info('✏️ Customer removed')
+        console.info('📝 Customer removed')
         mongoose.connection.close();
     })
 }
