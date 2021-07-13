@@ -30,6 +30,7 @@ const findCustomer=(name)=>{
             console.info("⚡ Last Name     : "+c2.lastName);
             console.info("📞 Phone Number  : "+c2.phone);
             console.info("📩 Email Address : "+c2.email);
+            console.info("🚀 Unique ID : "+c2._id);
             console.info(" ");
         })
         console.info(`🔍️ Matches found: ${c1.length}`);
@@ -61,7 +62,7 @@ const listCustomers=()=>{
             console.info("⚡ Last Name     : "+customer.lastName);
             console.info("📞 Phone Number  : "+customer.phone);
             console.info("📩 Email Address : "+customer.email);
-            console.info(" ");
+            console.info("🚀 Unique ID : "+customer._id);
         })
         // console.info(customers)
         console.info(`🔍️ ${customers.length} customer(s) found`)
