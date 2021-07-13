@@ -40,22 +40,22 @@
 
 **1. Fork and clone this repository using**
 
-```
-  git clone https://github.com/sandip2224/CMS-CLI_Revamped.git
-  cd CMS-CLI_Revamped/
-```  
+   ```
+   git clone https://github.com/sandip2224/CMS-CLI_Revamped.git
+   cd CMS-CLI_Revamped/
+   ```  
 
 **2. Install required dependencies using**
 
-```
+   ```
    npm install
-```
+   ```
 
 **3. Create global symlink using**
 
-```
+   ```
    npm link
-```
+   ```
 
 ## Commands and syntaxes
 
