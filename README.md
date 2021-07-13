@@ -54,36 +54,36 @@
 **3. Create global symlink using**
 
 ```
-npm link
+   npm link
 ```
 
 ## Commands and syntaxes
 
 - Add a new customer
 
-  `
+  ```
   cms-cli add
-  `
+  ```
 - Find an existing customer
 
-  `
+  ```
   cms-cli find <name>
-  `
+  ````
 - Update an existing customer credentials
 
-  `
+  ```
   cms-cli update <_id>
-  `
+  ```
 - Remove an existing customer
 
-  `
+  ```
   cms-cli remove <_id>
-  `
+  ```
 - List out all customers
 
-  `
+  ```
   cms-cli list
-  `
+  ```
 
 ---
 
