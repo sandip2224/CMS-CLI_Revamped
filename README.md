@@ -59,27 +59,27 @@
 
 ## Commands and syntaxes
 
-- Add a new customer
+**1. Add a new customer**
 
   ```
   cms-cli add
   ```
-- Find an existing customer
+**2. Find an existing customer**
 
   ```
   cms-cli find <name>
   ````
-- Update an existing customer credentials
+**3. Update an existing customer credentials**
 
   ```
   cms-cli update <_id>
   ```
-- Remove an existing customer
+**4. Remove an existing customer**
 
   ```
   cms-cli remove <_id>
   ```
-- List out all customers
+**5. List out all customers**
 
   ```
   cms-cli list
